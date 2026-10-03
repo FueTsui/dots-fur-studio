@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M14 20C18 6 42 8 47 23S60 46 46 53 13 57 8 43 8 30 14 20' fill='%232461ff'/%3E%3Cellipse cx='26' cy='28' rx='3' ry='5'/%3E%3Cellipse cx='40' cy='28' rx='3' ry='5'/%3E%3C/svg%3E" />
+    <meta name="description" content="Dots 毛绒实验室：自由组合原版形状、眼睛、眼镜与配饰，实时调整 8 项 GPU 毛绒参数。" />
+    <title>dots · 毛绒实验室</title>
+  </head>
+  <body>
+    <main id="app" aria-label="Dots 毛绒互动实验室">
+      <div id="viewport">
+        <canvas id="scene" aria-label="可拖动旋转的实时毛绒角色"></canvas>
+        <div id="webgl-error" role="alert" hidden></div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-02T14:00:53.469Z",
+  "passed": true,
+  "files": 374,
+  "records": 1619,
+  "vertices": 3514174,
+  "triangles": 7022960,
+  "bytes": 170473762,
+  "maxBoundsError": 2.220446049250313e-16,
+  "maxNormalUnitError": 1.825622046869313e-7,
+  "byShape": {
+    "capsule": {
+      "files": 37,
+      "records": 158,
+      "eyeStyles": [
+        "crescent_inset",
+        "dots",
+        "double_highlights",
+        "highlight_capsules",
+        "oval",
+        "sleepy_lids",
+        "sparkle_capsules",
+        "swept_lids"
+      ],
+      "eyewear": [
+        "classic_sunglasses",
+        "monocle",
+        "round_sunglasses",
+        "separate_trapezoid_lenses",
+        "tall_oval_frames"
+      ],
+      "accessories": [
+        "beanie",
+        "beret",
+        "bow",
+        "crown",
+        "hat",
+        "headphones",
+        "orb",
+        "three_lobe"
+      ],
+      "combos": 16,
+      "hasBody": true
+    },
+    "circle": {
+      "files": 37,
+      "records": 158,
+      "eyeStyles": [
+        "crescent_inset",
+        "dots",
+        "double_highlights",
+        "highlight_capsules",
+        "oval",
+        "sleepy_lids",
+        "sparkle_capsules",
+        "swept_lids"
+      ],
+      "eyewear": [
+        "classic_sunglasses",
+        "monocle",
+        "round_sunglasses",
+        "separate_trapezoid_lenses",
+        "tall_oval_frames"
+      ],
+      "accessories": [
+        "beanie",
+        "beret",
+        "bow",
+        "crown",
+        "hat",
+        "headphones",
+        "orb",
+        "three_lobe"
+      ],
+      "combos": 16,
+      "hasBody": true
+    },
+    "circle_two_ears": {
+      "files": 31,
+      "records": 140,
+      "eyeStyles": [
+        "crescent_inset",
+        "dots",
+        "double_highlights",
+        "highlight_capsules",
+        "oval",
+        "sleepy_lids",
+        "sparkle_capsules",
+        "swept_lids"
+      ],
+      "eyewear": [
+        "classic_sunglasses",
+        "monocle",
+        "round_sunglasses",
+        "separate_trapezoid_lenses",
+        "tall_oval_frames"
+      ],
+      "accessories": [
+        "bow",
+        "headphones"
+      ],
+      "combos": 16,
+      "hasBody": true
+    },
+    "four_lobed_butterfly": {
+      "files": 37,
+      "records": 158,
+      "eyeStyles": [
+        "crescent_inset",
+        "dots",
+        "double_highlights",
+        "highlight_capsules",
+        "oval",
+        "sleepy_lids",
+        "sparkle_capsules",
+        "swept_lids"
+      ],
+      "eyewear": [
+        "classic_sunglasses",
+        "monocle",
+        "round_sunglasses",
+        "separate_trapezoid_lenses",
+        "tall_oval_frames"
+      ],
+      "accessories": [
+        "beanie",
+        "beret",
+        "bow",
+        "crown",
+        "hat",
+        "headphones",
+        "orb",
+        "three_lobe"
+      ],
+      "combos": 16,
+      "hasBody": true
+    },
+    "heart": {
+      "files": 37,
+      "records": 158,
+      "eyeStyles": [
+        "crescent_inset",
+        "dots",
+        "double_highlights",
+        "highlight_capsules",
+        "oval",
+        "sleepy_lids",
+        "sparkle_capsules",
+        "swept_lids"
+      ],
+      "eyewear": [
+        "classic_sunglasses",
+        "monocle",
+        "round_sunglasses",
+        "separate_trapezoid_lenses",
+        "tall_oval_frames"
+      ],
+      "accessories": [
+        "beanie",
+        "beret",
+        "bow",
+        "crown",
+        "hat",
+        "headphones",
+        "orb",
+        "three_lobe"
+      ],
+      "combos": 16,
+      "hasBody": true
+    },
+    "rounded_cube": {
+      "files": 37,
+      "records": 158,
+      "eyeStyles": [
+        "crescent_inset",
+        "dots",
+        "double_highlights",
+        "highlight_capsules",
+        "oval",
+        "sleepy_lids",
+        "sparkle_capsules",
+        "swept_lids"
+      ],
+      "eyewear": [
+        "classic_sunglasses",
+        "monocle",
+        "round_sunglasses",
+        "separate_trapezoid_lenses",
+        "tall_oval_frames"
+      ],
+      "accessories": [
+        "beanie",
+        "beret",
+        "bow",
+        "crown",
+        "hat",
+        "headphones",
+        "orb",
+        "three_lobe"
+      ],
+      "combos": 16,
+      "hasBody": true
+    },
+    "rounded_diamond": {
+      "files": 37,
+      "records": 158,
+      "eyeStyles": [
+        "crescent_inset",
+        "dots",
+        "double_highlights",
+        "highlight_capsules",
+        "oval",
+        "sleepy_lids",
+        "sparkle_capsules",
+        "swept_lids"
+      ],
+      "eyewear": [
+        "classic_sunglasses",
+        "monocle",
+        "round_sunglasses",
+        "separate_trapezoid_lenses",
+        "tall_oval_frames"
+      ],
+      "accessories": [
+        "beanie",
+        "beret",
+        "bow",
+        "crown",
+        "hat",
+        "headphones",
+        "orb",
+        "three_lobe"
+      ],
+      "combos": 16,
+      "hasBody": true
+    },
+    "rounded_head_two_ears": {
+      "files": 10,
+      "records": 57,
+      "eyeStyles": [
+        "round_inset"
+      ],
+      "eyewear": [
+        "classic_sunglasses",
+        "monocle",
+        "round_sunglasses",
+        "separate_trapezoid_lenses",
+        "tall_oval_frames"
+      ],
+      "accessories": [
+        "bow",
+        "headphones"
+      ],
+      "combos": 2,
+      "hasBody": true
+    },
+    "rounded_triangle": {
+      "files": 37,
+      "records": 158,
+      "eyeStyles": [
+        "crescent_inset",
+        "dots",
+        "double_highlights",
+        "highlight_capsules",
+        "oval",
+        "sleepy_lids",
+        "sparkle_capsules",
+        "swept_lids"
+      ],
+      "eyewear": [
+        "classic_sunglasses",
+        "monocle",
+        "round_sunglasses",
+        "separate_trapezoid_lenses",
+        "tall_oval_frames"
+      ],
+      "accessories": [
+        "beanie",
+        "beret",
+        "bow",
+        "crown",
+        "hat",
+        "headphones",
+        "orb",
+        "three_lobe"
+      ],
+      "combos": 16,
+      "hasBody": true
+    },
+    "six_lobed_flower": {
+      "files": 37,
+      "records": 158,
+      "eyeStyles": [
+        "crescent_inset",
+        "dots",
+        "double_highlights",
+        "highlight_capsules",
+        "oval",
+        "sleepy_lids",
+        "sparkle_capsules",
+        "swept_lids"
+      ],
+      "eyewear": [
+        "classic_sunglasses",
+        "monocle",
+        "round_sunglasses",
+        "separate_trapezoid_lenses",
+        "tall_oval_frames"
+      ],
+      "accessories": [
+        "beanie",
+        "beret",
+        "bow",
+        "crown",
+        "hat",
+        "headphones",
+        "orb",
+        "three_lobe"
+      ],
+      "combos": 16,
+      "hasBody": true
+    },
+    "twelve_scalloped_rosette": {
+      "files": 37,
+      "records": 158,
+      "eyeStyles": [
+        "crescent_inset",
+        "dots",
+        "double_highlights",
+        "highlight_capsules",
+        "oval",
+        "sleepy_lids",
+        "sparkle_capsules",
+        "swept_lids"
+      ],
+      "eyewear": [
+        "classic_sunglasses",
+        "monocle",
+        "round_sunglasses",
+        "separate_trapezoid_lenses",
+        "tall_oval_frames"
+      ],
+      "accessories": [
+        "beanie",
+        "beret",
+        "bow",
+        "crown",
+        "hat",
+        "headphones",
+        "orb",
+        "three_lobe"
+      ],
+      "combos": 16,
+      "hasBody": true
+    }
+  },
+  "checks": [
+    "Every binary SHA-256 matches metadata",
+    "All offsets and lengths fit the binary",
+    "Every position and normal is finite",
+    "Every triangle index is in range",
+    "Measured vertex bounds match metadata",
+    "Every native RGB component is in [0,1]",
+    "Every prepared base body is present"
+  ],
+  "errors": [],
+  "loaderChecks": {
+    "passed": true,
+    "combinationsLoaded": 374,
+    "preparedBodiesLoaded": 11,
+    "meshInstances": 1608,
+    "disposal": "Every instantiated geometry and material disposed after validation"
+  },
+  "packing": {
+    "originalJsonBytes": 510997170,
+    "packedBytes": 170473762,
+    "ratio": 0.3336099923997622
+  },
+  "nativeAccessoryLimit": 1
+}

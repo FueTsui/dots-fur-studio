@@ -1,0 +1,23 @@
+{
+  "name": "dots-fur-study",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "build:site": "vite build --base /demos/dots/",
+    "test": "node scripts/verify-customizer.mjs && node scripts/verify-gaze.mjs && node scripts/verify-gaze-motion.mjs && node scripts/verify-accessory-colors.mjs",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "description": "Dots 毛绒实验室 — a local Three.js character and GPU fur editor",
+  "homepage": "https://fuetsui.com/#page-843c2384-7c92-474e-b383-f201f81d66ae",
+  "repository": { "type": "git", "url": "https://github.com/FueTsui/dots-fur-studio.git" },
+  "engines": { "node": "^20.19.0 || >=22.12.0" },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}

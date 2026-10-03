@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.playwright-cli/
+*.log
+output/
+dots-番薯/
+release/
+.env
+.env.*
+!.env.example
+*.local
+Thumbs.db
+.DS_Store

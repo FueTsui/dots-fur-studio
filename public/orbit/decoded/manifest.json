@@ -1,0 +1,2429 @@
+{
+  "schemaVersion": 1,
+  "source": "User-selected chatgpt.com/dots page, official runtime virtual filesystem",
+  "sourceRevision": "7f2e673cd9cff752c137d3d858bc4ddb530dda34fe9c2e1fb23a94b2831adf1d",
+  "units": "Original authored normalized units; longest 2D body dimension is approximately 2. Original depth is approximately 0.8.",
+  "coordinateSystem": "x right, y up, z front",
+  "encoding": "Binary files contain interleaved float32 xyz positions, interleaved float32 xyz normals, then uint32 triangle indices, little endian.",
+  "unresolved": [
+    "Original procedural authoring equations are not exposed by the downloaded resource manifest.",
+    "The final two ORBITM04 vertex fields are retained in source meshes; their semantics are not assigned guessed names.",
+    "ORBFACE3 hash keys need to be matched with native runtime assembly output before named fitting parameters can be reported."
+  ],
+  "shapes": {
+    "capsule": {
+      "id": "capsule",
+      "title": "Capsule",
+      "file": "capsule.bin",
+      "vertexCount": 2578,
+      "indexCount": 15456,
+      "triangleCount": 5152,
+      "bounds": {
+        "min": [
+          -1,
+          -0.6842857003211975,
+          -0.4000000059604645
+        ],
+        "max": [
+          1,
+          0.6842856407165527,
+          0.4000000059604645
+        ],
+        "size": [
+          2,
+          1.3685713410377502,
+          0.800000011920929
+        ],
+        "center": [
+          0,
+          -2.9802322387695312e-8,
+          0
+        ]
+      },
+      "surfaceArea": 6.235153455146165,
+      "signedVolume": 1.207669253530797,
+      "minimumNormalLength": 0.9999998724292259,
+      "maximumNormalLength": 1.0000001307237119,
+      "sourceSha256": "74e161de9d8331bd84d2a215aeb60aa77e991136d380e52a5afb2d5b18e8c333",
+      "decodedSha256": "20fd73d6ea1fc98a0a18905cba9504f15e9c2e5d89ba1a0d341240c0fc6cf128"
+    },
+    "circle": {
+      "id": "circle",
+      "title": "Circle",
+      "file": "circle.bin",
+      "vertexCount": 2578,
+      "indexCount": 15456,
+      "triangleCount": 5152,
+      "bounds": {
+        "min": [
+          -0.9997919201850891,
+          -0.9995921850204468,
+          -0.4000000059604645
+        ],
+        "max": [
+          0.9997919201850891,
+          0.9995921850204468,
+          0.4000000059604645
+        ],
+        "size": [
+          1.9995838403701782,
+          1.9991843700408936,
+          0.800000011920929
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 7.978739197320054,
+      "signedVolume": 1.6656985398403799,
+      "minimumNormalLength": 0.9999998794068476,
+      "maximumNormalLength": 1.0000001220945778,
+      "sourceSha256": "dd34bdec4254f9de65649d4fecb342283bfc87523c23c5917e6ac99216b550ad",
+      "decodedSha256": "5c9b5482f38a583865584c55cb3200754d0aaca5f554900c355d79e0adbe57cb"
+    },
+    "circle_two_ears": {
+      "id": "circle_two_ears",
+      "title": "Circle with two ears",
+      "file": "circle_two_ears.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -0.7529082894325256,
+          -1.0001133680343628,
+          -0.4001275599002838
+        ],
+        "max": [
+          0.7529953122138977,
+          1.0003715753555298,
+          0.39985746145248413
+        ],
+        "size": [
+          1.5059036016464233,
+          2.0004849433898926,
+          0.7999850213527679
+        ],
+        "center": [
+          0.000043511390686035156,
+          0.0001291036605834961,
+          -0.0001350492238998413
+        ]
+      },
+      "surfaceArea": 5.990009522373664,
+      "signedVolume": 1.0494444619057013,
+      "minimumNormalLength": 0.9999999595769864,
+      "maximumNormalLength": 1.0000000390306403,
+      "sourceSha256": "3084e5d376fb46a4481a38819b3cf85b08c530a8e19ea258944015ee111d8949",
+      "decodedSha256": "647b4a91fd0d133848a68657a9126e6d65696c6ae0fbc9336285efc7f042d1a3"
+    },
+    "four_lobed_butterfly": {
+      "id": "four_lobed_butterfly",
+      "title": "Four lobed butterfly",
+      "file": "four_lobed_butterfly.bin",
+      "vertexCount": 2624,
+      "indexCount": 15732,
+      "triangleCount": 5244,
+      "bounds": {
+        "min": [
+          -0.9992280602455139,
+          -0.7697998881340027,
+          -0.4000000059604645
+        ],
+        "max": [
+          0.9992278814315796,
+          0.7698869705200195,
+          0.4000000059604645
+        ],
+        "size": [
+          1.9984559416770935,
+          1.5396868586540222,
+          0.800000011920929
+        ],
+        "center": [
+          -8.940696716308594e-8,
+          0.00004354119300842285,
+          0
+        ]
+      },
+      "surfaceArea": 6.586737080598425,
+      "signedVolume": 1.150237007996231,
+      "minimumNormalLength": 0.9999998768420686,
+      "maximumNormalLength": 1.0000001285232594,
+      "sourceSha256": "1b273d8711eef922baf0b7cf2b6b650dd9456460fb72d6f408f586b3ad1a09c3",
+      "decodedSha256": "7d2aea8961bd57195d11fb4f752bac8a3a4359e6629c926c88be94c7e7972190"
+    },
+    "heart": {
+      "id": "heart",
+      "title": "Heart",
+      "file": "heart.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -1.0000026226043701,
+          -0.920613169670105,
+          -0.4000169038772583
+        ],
+        "max": [
+          1.0000017881393433,
+          0.9208775758743286,
+          0.4000311493873596
+        ],
+        "size": [
+          2.0000044107437134,
+          1.8414907455444336,
+          0.8000480532646179
+        ],
+        "center": [
+          -4.172325134277344e-7,
+          0.0001322031021118164,
+          0.00000712275505065918
+        ]
+      },
+      "surfaceArea": 7.063882155647508,
+      "signedVolume": 1.3753677281894812,
+      "minimumNormalLength": 0.9999999609926263,
+      "maximumNormalLength": 1.000000040328554,
+      "sourceSha256": "3224e1ae7b6b8f01deb28fbd3fa785b02f756bba82e9a84220675223fefe1b6d",
+      "decodedSha256": "4c44fe38cc279033fc74d6fd1f6c9847edca734ab6b768d20af0c0130d6ae001"
+    },
+    "rounded_cube": {
+      "id": "rounded_cube",
+      "title": "Hexagon",
+      "file": "rounded_cube.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -0.9521502256393433,
+          -1.0006309747695923,
+          -0.4000259339809418
+        ],
+        "max": [
+          0.9521505832672119,
+          1.0006309747695923,
+          0.40000686049461365
+        ],
+        "size": [
+          1.9043008089065552,
+          2.0012619495391846,
+          0.8000327944755554
+        ],
+        "center": [
+          1.7881393432617188e-7,
+          0,
+          -0.0000095367431640625
+        ]
+      },
+      "surfaceArea": 7.450907990905027,
+      "signedVolume": 1.529080932949644,
+      "minimumNormalLength": 0.9999999536407393,
+      "maximumNormalLength": 1.0000000373574338,
+      "sourceSha256": "b0cfb522160ffd4af97ddfb29ad515f727e7e08a79e2772d9d3e36ee59c24f7e",
+      "decodedSha256": "462ff02366fdbf9babe4ebe11d8a644577bba0b27b76304e4925d947be326044"
+    },
+    "rounded_diamond": {
+      "id": "rounded_diamond",
+      "title": "Rounded diamond",
+      "file": "rounded_diamond.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -0.9999998211860657,
+          -0.9749998450279236,
+          -0.4000000059604645
+        ],
+        "max": [
+          0.9999998211860657,
+          0.9749999046325684,
+          0.40000614523887634
+        ],
+        "size": [
+          1.9999996423721313,
+          1.949999749660492,
+          0.8000061511993408
+        ],
+        "center": [
+          0,
+          2.9802322387695312e-8,
+          0.000003069639205932617
+        ]
+      },
+      "surfaceArea": 6.531541373261002,
+      "signedVolume": 1.2806299701150192,
+      "minimumNormalLength": 0.9999999535335913,
+      "maximumNormalLength": 1.0000000472748958,
+      "sourceSha256": "f019e0e2d9291524902080f7b4a671ffcf96d14d1812a4fa65002949e3f01af3",
+      "decodedSha256": "402a9b73a7ac675ca186b41941be99e9538005c0354aa6ff758cadd951f653b0"
+    },
+    "rounded_head_two_ears": {
+      "id": "rounded_head_two_ears",
+      "title": "Rounded head with two ears",
+      "file": "rounded_head_two_ears.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -0.999669075012207,
+          -0.801568329334259,
+          -0.4002997577190399
+        ],
+        "max": [
+          1.0006413459777832,
+          0.801655650138855,
+          0.40032854676246643
+        ],
+        "size": [
+          2.0003104209899902,
+          1.603223979473114,
+          0.8006283044815063
+        ],
+        "center": [
+          0.00048613548278808594,
+          0.00004366040229797363,
+          0.000014394521713256836
+        ]
+      },
+      "surfaceArea": 6.949356853454284,
+      "signedVolume": 1.3146243949518273,
+      "minimumNormalLength": 0.9999999612095,
+      "maximumNormalLength": 1.0000000406668699,
+      "sourceSha256": "258aed7bff3ce8533985261d5cc28066d115358b061d0e58f4fe516d5c6a325b",
+      "decodedSha256": "53117964df45c7844d0c31954148b38f505cae27f61e450785fa2efbcaa36b2d"
+    },
+    "rounded_triangle": {
+      "id": "rounded_triangle",
+      "title": "Rounded triangle",
+      "file": "rounded_triangle.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -0.9999852180480957,
+          -0.8902588486671448,
+          -0.40004634857177734
+        ],
+        "max": [
+          0.9999850988388062,
+          0.8902626633644104,
+          0.4000302851200104
+        ],
+        "size": [
+          1.9999703168869019,
+          1.7805215120315552,
+          0.8000766336917877
+        ],
+        "center": [
+          -5.960464477539063e-8,
+          0.0000019073486328125,
+          -0.000008031725883483887
+        ]
+      },
+      "surfaceArea": 6.6750434583227625,
+      "signedVolume": 1.289215594765628,
+      "minimumNormalLength": 0.9999999553336821,
+      "maximumNormalLength": 1.0000000393904493,
+      "sourceSha256": "0229b12cd1a2def382e06e4fd4f78bedd2a10e14bd3ee59f42d2a4ce474a5fc2",
+      "decodedSha256": "22f79315fb7191130f483e25de24c941cdbe1619ce46e8e66a0acca23c356805"
+    },
+    "six_lobed_flower": {
+      "id": "six_lobed_flower",
+      "title": "Six lobed flower",
+      "file": "six_lobed_flower.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -0.9999989867210388,
+          -0.9149405360221863,
+          -0.4000031352043152
+        ],
+        "max": [
+          0.999998927116394,
+          0.9149405360221863,
+          0.4000045359134674
+        ],
+        "size": [
+          1.9999979138374329,
+          1.8298810720443726,
+          0.8000076711177826
+        ],
+        "center": [
+          -2.9802322387695312e-8,
+          0,
+          7.003545761108398e-7
+        ]
+      },
+      "surfaceArea": 7.168941407825525,
+      "signedVolume": 1.4690533876829692,
+      "minimumNormalLength": 0.9999999580942457,
+      "maximumNormalLength": 1.0000000396042632,
+      "sourceSha256": "2cd7ce76776ed9524ca351bbd7297311a6fb3394c44b6db060a8bc4de3aff0a1",
+      "decodedSha256": "d591740553e94a4ec501c9bb0d863d8e1f055a673a92e031896b880fe9f02adf"
+    },
+    "twelve_scalloped_rosette": {
+      "id": "twelve_scalloped_rosette",
+      "title": "Twelve scalloped rosette",
+      "file": "twelve_scalloped_rosette.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -1.000001072883606,
+          -0.9850010275840759,
+          -0.4000025987625122
+        ],
+        "max": [
+          1.000001072883606,
+          0.9850010275840759,
+          0.4000082015991211
+        ],
+        "size": [
+          2.000002145767212,
+          1.9700020551681519,
+          0.8000108003616333
+        ],
+        "center": [
+          0,
+          0,
+          0.0000028014183044433594
+        ]
+      },
+      "surfaceArea": 7.844621991669783,
+      "signedVolume": 1.6619311636605116,
+      "minimumNormalLength": 0.9999999581244483,
+      "maximumNormalLength": 1.0000000391945925,
+      "sourceSha256": "c41d4c2865d33231709c3ae289027893f370c5b176422dbe3a6fb53136bca64c",
+      "decodedSha256": "c13b8618ea48be0515a32ef03fd197550740dabe1e23ba17ced1b6a8244c0a2f"
+    }
+  },
+  "meshes": {
+    "authored-accessories-bow-0-0": {
+      "id": "authored-accessories-bow-0-0",
+      "title": "authored-accessories-bow-0-0",
+      "file": "authored-accessories-bow-0-0.bin",
+      "vertexCount": 7252,
+      "indexCount": 43500,
+      "triangleCount": 14500,
+      "bounds": {
+        "min": [
+          -1,
+          -0.4074583947658539,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.4074583947658539,
+          0.10000000149011612
+        ],
+        "size": [
+          2,
+          0.8149167895317078,
+          0.20000000298023224
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 2.5265043355282506,
+      "signedVolume": 0.14236869215889955,
+      "minimumNormalLength": 0.999999929575217,
+      "maximumNormalLength": 1.0000001266314142,
+      "sourceSha256": "3b6baa8408fb27b661d477bf69095f14a12c3b27253472b9582d04856efb2736",
+      "decodedSha256": "de275bddcba4f818eed3f8864a237fd1986514a0500d1aada9799bbdb381c6e5"
+    },
+    "authored-beanie": {
+      "id": "authored-beanie",
+      "title": "authored-beanie",
+      "file": "authored-beanie.bin",
+      "vertexCount": 3394,
+      "indexCount": 20352,
+      "triangleCount": 6784,
+      "bounds": {
+        "min": [
+          -1.4270000457763672,
+          -0.08022215962409973,
+          -1.0769999027252197
+        ],
+        "max": [
+          1.4270000457763672,
+          1.2074999809265137,
+          1.0769999027252197
+        ],
+        "size": [
+          2.8540000915527344,
+          1.2877221405506134,
+          2.1539998054504395
+        ],
+        "center": [
+          0,
+          0.563638910651207,
+          0
+        ]
+      },
+      "surfaceArea": 18.466547621871598,
+      "signedVolume": 1.6043712380960062,
+      "minimumNormalLength": 0.9999998690321237,
+      "maximumNormalLength": 1.0000001308187485,
+      "sourceSha256": "949fd082e282583f296003270751b61b57392edfba288b4fcf52f957b6851a68",
+      "decodedSha256": "7b032a2d16c471ac7d931430b8249123915897af47bb9fd501e9ca7670d98d67"
+    },
+    "authored-beret": {
+      "id": "authored-beret",
+      "title": "authored-beret",
+      "file": "authored-beret.bin",
+      "vertexCount": 2818,
+      "indexCount": 16896,
+      "triangleCount": 5632,
+      "bounds": {
+        "min": [
+          -1.1047049760818481,
+          -0.2681904733181,
+          -0.6649999618530273
+        ],
+        "max": [
+          0.8952950239181519,
+          0.7136881947517395,
+          0.6150000095367432
+        ],
+        "size": [
+          2,
+          0.9818786680698395,
+          1.2799999713897705
+        ],
+        "center": [
+          -0.10470497608184814,
+          0.22274886071681976,
+          -0.02499997615814209
+        ]
+      },
+      "surfaceArea": 6.4414880825062015,
+      "signedVolume": 1.0125811492257861,
+      "minimumNormalLength": 0.9999998767613756,
+      "maximumNormalLength": 1.0000001525930946,
+      "sourceSha256": "4347d9fd3ff3712c790e294cf95702aeafce8b8d5ab6456e0bbfc8db7e6cf4dd",
+      "decodedSha256": "8bac26e4403297da64e34bdcc06feb643a2d64210b52e31cca3d201a6722ae02"
+    },
+    "authored-crown": {
+      "id": "authored-crown",
+      "title": "authored-crown",
+      "file": "authored-crown.bin",
+      "vertexCount": 8208,
+      "indexCount": 49248,
+      "triangleCount": 16416,
+      "bounds": {
+        "min": [
+          -1.461830735206604,
+          -0.03500000014901161,
+          -1.052468180656433
+        ],
+        "max": [
+          1.461830735206604,
+          1.4018421173095703,
+          1.0848681926727295
+        ],
+        "size": [
+          2.923661470413208,
+          1.436842117458582,
+          2.1373363733291626
+        ],
+        "center": [
+          0,
+          0.6834210585802794,
+          0.016200006008148193
+        ]
+      },
+      "surfaceArea": 11.80797136124637,
+      "signedVolume": 0.6505018592002347,
+      "minimumNormalLength": 0.9999998507331106,
+      "maximumNormalLength": 1.000000139508352,
+      "sourceSha256": "5080f5b62774ab9033c8261dffc3ded88dafbc2f5f6b19edfa282b8657ca4d52",
+      "decodedSha256": "f4354fd5d67f4ad1b2323e19c23df1115c8dc8155aa582102277f2a7ecb4cb72"
+    },
+    "authored-eyewear-round_sunglasses-0-0": {
+      "id": "authored-eyewear-round_sunglasses-0-0",
+      "title": "authored-eyewear-round_sunglasses-0-0",
+      "file": "authored-eyewear-round_sunglasses-0-0.bin",
+      "vertexCount": 7595,
+      "indexCount": 45558,
+      "triangleCount": 15186,
+      "bounds": {
+        "min": [
+          -1,
+          -0.38037940859794617,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.38037940859794617,
+          0.10000000149011612
+        ],
+        "size": [
+          2,
+          0.7607588171958923,
+          0.20000000298023224
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 3.0119406046526214,
+      "signedVolume": 0.1846113770169116,
+      "minimumNormalLength": 0.9999999610629127,
+      "maximumNormalLength": 1.0000001225551056,
+      "sourceSha256": "0e193e13ec0a074cb67cfddf6db0596587b88ab3ded971e545a247339354aa91",
+      "decodedSha256": "b05678c4639c84e107745c42828c5e545e3518e62409af2d8eef93088e727941"
+    },
+    "authored-eyewear-separate_trapezoid_lenses-0-0": {
+      "id": "authored-eyewear-separate_trapezoid_lenses-0-0",
+      "title": "authored-eyewear-separate_trapezoid_lenses-0-0",
+      "file": "authored-eyewear-separate_trapezoid_lenses-0-0.bin",
+      "vertexCount": 3853,
+      "indexCount": 23106,
+      "triangleCount": 7702,
+      "bounds": {
+        "min": [
+          -1,
+          -0.34860968589782715,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.033791400492191315,
+          0.34860968589782715,
+          0.10000000149011612
+        ],
+        "size": [
+          0.9662085995078087,
+          0.6972193717956543,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.5168957002460957,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 1.6922879922992466,
+      "signedVolume": 0.11332316092371296,
+      "minimumNormalLength": 0.9999999385262459,
+      "maximumNormalLength": 1.0000001119640016,
+      "sourceSha256": "53f41444d1be22067edf855800660a4531ba991a68b0bf2c494e3a226863c057",
+      "decodedSha256": "0ad203d2c3a39a4f2010584f8e36d502d4a25bda4d577a68e16c9760fe96ee24"
+    },
+    "authored-eyewear-separate_trapezoid_lenses-0-1": {
+      "id": "authored-eyewear-separate_trapezoid_lenses-0-1",
+      "title": "authored-eyewear-separate_trapezoid_lenses-0-1",
+      "file": "authored-eyewear-separate_trapezoid_lenses-0-1.bin",
+      "vertexCount": 3855,
+      "indexCount": 23118,
+      "triangleCount": 7706,
+      "bounds": {
+        "min": [
+          0.03378999978303909,
+          -0.34860968589782715,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.34860968589782715,
+          0.10000000149011612
+        ],
+        "size": [
+          0.9662100002169609,
+          0.6972193717956543,
+          0.20000000298023224
+        ],
+        "center": [
+          0.5168949998915195,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 1.691738615557453,
+      "signedVolume": 0.11328977457137158,
+      "minimumNormalLength": 0.9999999641583471,
+      "maximumNormalLength": 1.0000001137166834,
+      "sourceSha256": "2c6e8a48355b3cbe380c70969c6e16240427c699100fb921fbad697b3bda8ef9",
+      "decodedSha256": "6780528142ba30245b47646cfc756925b8149f360e21b7aceb1dfd3ec86a1d42"
+    },
+    "authored-hat": {
+      "id": "authored-hat",
+      "title": "authored-hat",
+      "file": "authored-hat.bin",
+      "vertexCount": 4162,
+      "indexCount": 24960,
+      "triangleCount": 8320,
+      "bounds": {
+        "min": [
+          -1.7599999904632568,
+          -0.06371999531984329,
+          -1.1399999856948853
+        ],
+        "max": [
+          1.7599999904632568,
+          2.299999952316284,
+          1.1399999856948853
+        ],
+        "size": [
+          3.5199999809265137,
+          2.3637199476361275,
+          2.2799999713897705
+        ],
+        "center": [
+          0,
+          1.1181399784982204,
+          0
+        ]
+      },
+      "surfaceArea": 31.842215332945393,
+      "signedVolume": 3.5895965050089003,
+      "minimumNormalLength": 0.9999998825850585,
+      "maximumNormalLength": 1.0000001299306982,
+      "sourceSha256": "657e6665ca49b197282540a5511513ecabc2581bf5f7acd69935601af14c1ad4",
+      "decodedSha256": "645afbf902c8bc8e83a82064b64b660633714ab861c949eaa2721047a390a659"
+    },
+    "capsule": {
+      "id": "capsule",
+      "title": "Capsule",
+      "file": "capsule.bin",
+      "vertexCount": 2578,
+      "indexCount": 15456,
+      "triangleCount": 5152,
+      "bounds": {
+        "min": [
+          -1,
+          -0.6842857003211975,
+          -0.4000000059604645
+        ],
+        "max": [
+          1,
+          0.6842856407165527,
+          0.4000000059604645
+        ],
+        "size": [
+          2,
+          1.3685713410377502,
+          0.800000011920929
+        ],
+        "center": [
+          0,
+          -2.9802322387695312e-8,
+          0
+        ]
+      },
+      "surfaceArea": 6.235153455146165,
+      "signedVolume": 1.207669253530797,
+      "minimumNormalLength": 0.9999998724292259,
+      "maximumNormalLength": 1.0000001307237119,
+      "sourceSha256": "74e161de9d8331bd84d2a215aeb60aa77e991136d380e52a5afb2d5b18e8c333",
+      "decodedSha256": "20fd73d6ea1fc98a0a18905cba9504f15e9c2e5d89ba1a0d341240c0fc6cf128"
+    },
+    "circle": {
+      "id": "circle",
+      "title": "Circle",
+      "file": "circle.bin",
+      "vertexCount": 2578,
+      "indexCount": 15456,
+      "triangleCount": 5152,
+      "bounds": {
+        "min": [
+          -0.9997919201850891,
+          -0.9995921850204468,
+          -0.4000000059604645
+        ],
+        "max": [
+          0.9997919201850891,
+          0.9995921850204468,
+          0.4000000059604645
+        ],
+        "size": [
+          1.9995838403701782,
+          1.9991843700408936,
+          0.800000011920929
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 7.978739197320054,
+      "signedVolume": 1.6656985398403799,
+      "minimumNormalLength": 0.9999998794068476,
+      "maximumNormalLength": 1.0000001220945778,
+      "sourceSha256": "dd34bdec4254f9de65649d4fecb342283bfc87523c23c5917e6ac99216b550ad",
+      "decodedSha256": "5c9b5482f38a583865584c55cb3200754d0aaca5f554900c355d79e0adbe57cb"
+    },
+    "circle_two_ears": {
+      "id": "circle_two_ears",
+      "title": "Circle with two ears",
+      "file": "circle_two_ears.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -0.7529082894325256,
+          -1.0001133680343628,
+          -0.4001275599002838
+        ],
+        "max": [
+          0.7529953122138977,
+          1.0003715753555298,
+          0.39985746145248413
+        ],
+        "size": [
+          1.5059036016464233,
+          2.0004849433898926,
+          0.7999850213527679
+        ],
+        "center": [
+          0.000043511390686035156,
+          0.0001291036605834961,
+          -0.0001350492238998413
+        ]
+      },
+      "surfaceArea": 5.990009522373664,
+      "signedVolume": 1.0494444619057013,
+      "minimumNormalLength": 0.9999999595769864,
+      "maximumNormalLength": 1.0000000390306403,
+      "sourceSha256": "3084e5d376fb46a4481a38819b3cf85b08c530a8e19ea258944015ee111d8949",
+      "decodedSha256": "647b4a91fd0d133848a68657a9126e6d65696c6ae0fbc9336285efc7f042d1a3"
+    },
+    "eyes-crescent_inset-0-0": {
+      "id": "eyes-crescent_inset-0-0",
+      "title": "eyes-crescent_inset-0-0",
+      "file": "eyes-crescent_inset-0-0.bin",
+      "vertexCount": 6,
+      "indexCount": 24,
+      "triangleCount": 8,
+      "bounds": {
+        "min": [
+          -1,
+          -0.42939189076423645,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.14121681451797485,
+          0.42939189076423645,
+          0.10000000149011612
+        ],
+        "size": [
+          0.8587831854820251,
+          0.8587837815284729,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.5706084072589874,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 0.7764794640474536,
+      "signedVolume": 0.024583636084368768,
+      "minimumNormalLength": 1,
+      "maximumNormalLength": 1,
+      "sourceSha256": "404018da5364331b749b4e8366a52504f077648efd42607a4cee31dc573c8250",
+      "decodedSha256": "78de95f607518c1f21fb5049e1f2fd8b674d1fae7c1acee02b05d118e70a01f3"
+    },
+    "eyes-crescent_inset-3-0": {
+      "id": "eyes-crescent_inset-3-0",
+      "title": "eyes-crescent_inset-3-0",
+      "file": "eyes-crescent_inset-3-0.bin",
+      "vertexCount": 6,
+      "indexCount": 24,
+      "triangleCount": 8,
+      "bounds": {
+        "min": [
+          0.14121019840240479,
+          -0.42939189076423645,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.42939189076423645,
+          0.10000000149011612
+        ],
+        "size": [
+          0.8587898015975952,
+          0.8587837815284729,
+          0.20000000298023224
+        ],
+        "center": [
+          0.5706050992012024,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 0.7764851533951321,
+      "signedVolume": 0.024583825478129866,
+      "minimumNormalLength": 1,
+      "maximumNormalLength": 1,
+      "sourceSha256": "c269845765ccb1b7898c5a47d1b4d1f32fa3ef5655644defa28d67fd04564972",
+      "decodedSha256": "87a69ea074527cadac0de8771804269256aaefb40c01a0f4f048bdc11301724c"
+    },
+    "eyes-dots-0-0": {
+      "id": "eyes-dots-0-0",
+      "title": "eyes-dots-0-0",
+      "file": "eyes-dots-0-0.bin",
+      "vertexCount": 1198,
+      "indexCount": 7176,
+      "triangleCount": 2392,
+      "bounds": {
+        "min": [
+          -1,
+          -0.3613820970058441,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.27723580598831177,
+          0.3613820970058441,
+          0.10000000149011612
+        ],
+        "size": [
+          0.7227641940116882,
+          0.7227641940116882,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.6386179029941559,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 1.2567477097311066,
+      "signedVolume": 0.0811587052302935,
+      "minimumNormalLength": 0.9999999787082918,
+      "maximumNormalLength": 1.0000001085636485,
+      "sourceSha256": "e45dd8c918ea11df5b0204ffaa82ec96f709936a27f3e9131ade1bed2c2ef2f3",
+      "decodedSha256": "566d7826fa1df563f3f014bf69970c8286501d5de6ff610a68448071b6e1fd83"
+    },
+    "eyes-dots-0-1": {
+      "id": "eyes-dots-0-1",
+      "title": "eyes-dots-0-1",
+      "file": "eyes-dots-0-1.bin",
+      "vertexCount": 1198,
+      "indexCount": 7176,
+      "triangleCount": 2392,
+      "bounds": {
+        "min": [
+          0.27723580598831177,
+          -0.3613820970058441,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.3613820970058441,
+          0.10000000149011612
+        ],
+        "size": [
+          0.7227641940116882,
+          0.7227641940116882,
+          0.20000000298023224
+        ],
+        "center": [
+          0.6386179029941559,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 1.2567477097311082,
+      "signedVolume": 0.08115870523029335,
+      "minimumNormalLength": 0.9999999787082918,
+      "maximumNormalLength": 1.0000001085636485,
+      "sourceSha256": "a08014246e4c7ad5dc8bb41ad39a1665072c9e15bd9e8d47e1e41f7b3ad55fdf",
+      "decodedSha256": "f9d444ae9f117514ee814434c49e6dd8f436b125a2fe56f395b97597220173c7"
+    },
+    "eyes-double_highlights-0-0": {
+      "id": "eyes-double_highlights-0-0",
+      "title": "eyes-double_highlights-0-0",
+      "file": "eyes-double_highlights-0-0.bin",
+      "vertexCount": 1658,
+      "indexCount": 9936,
+      "triangleCount": 3312,
+      "bounds": {
+        "min": [
+          -1,
+          -0.38849928975105286,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.2230018973350525,
+          0.38849928975105286,
+          0.10000000149011612
+        ],
+        "size": [
+          0.7769981026649475,
+          0.7769985795021057,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.6115009486675262,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 1.4176677892001757,
+      "signedVolume": 0.09393903287214167,
+      "minimumNormalLength": 0.9999999733915047,
+      "maximumNormalLength": 1.0000001113178891,
+      "sourceSha256": "57615746e3e1a4953ae2c8d0dd1ef2dde74a47a1083500f255b87477ad720db7",
+      "decodedSha256": "809fb0a624f693aee5eae8d877ee5b95720b18753b2222b21e1c2b4bf5994bb8"
+    },
+    "eyes-double_highlights-1-0": {
+      "id": "eyes-double_highlights-1-0",
+      "title": "eyes-double_highlights-1-0",
+      "file": "eyes-double_highlights-1-0.bin",
+      "vertexCount": 1474,
+      "indexCount": 8832,
+      "triangleCount": 2944,
+      "bounds": {
+        "min": [
+          -0.8629792928695679,
+          0.027599304914474487,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.605296790599823,
+          0.2852821946144104,
+          0.10000000149011612
+        ],
+        "size": [
+          0.2576825022697449,
+          0.2576828896999359,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.7341380417346954,
+          0.15644074976444244,
+          0
+        ]
+      },
+      "surfaceArea": 0.26374333398160943,
+      "signedVolume": 0.010337211668666276,
+      "minimumNormalLength": 0.9999999703765295,
+      "maximumNormalLength": 1.0000001180955855,
+      "sourceSha256": "11d6463a6ca267fbfe962839876520156a7425503bba94836dfe9e0bfe878a1a",
+      "decodedSha256": "1a5eeabbf7271cfb3e4433dd48ea968b6689cdd4869d63385cb1ce418b3c50d8"
+    },
+    "eyes-double_highlights-2-0": {
+      "id": "eyes-double_highlights-2-0",
+      "title": "eyes-double_highlights-2-0",
+      "file": "eyes-double_highlights-2-0.bin",
+      "vertexCount": 1658,
+      "indexCount": 9936,
+      "triangleCount": 3312,
+      "bounds": {
+        "min": [
+          0.2229958176612854,
+          -0.38849928975105286,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.38849928975105286,
+          0.10000000149011612
+        ],
+        "size": [
+          0.7770041823387146,
+          0.7769985795021057,
+          0.20000000298023224
+        ],
+        "center": [
+          0.6114979088306427,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 1.4176709899986677,
+      "signedVolume": 0.09393928943323408,
+      "minimumNormalLength": 0.9999999723111866,
+      "maximumNormalLength": 1.0000001190602763,
+      "sourceSha256": "502756ce405918bc311f46ba7f4e3024f2c1ed8482eb93d8933a17e52e6576c6",
+      "decodedSha256": "f434e137378455283abc2f947808a0ce7615094ce90c3d6aa5b0903fb63fd9e5"
+    },
+    "eyes-double_highlights-3-0": {
+      "id": "eyes-double_highlights-3-0",
+      "title": "eyes-double_highlights-3-0",
+      "file": "eyes-double_highlights-3-0.bin",
+      "vertexCount": 1474,
+      "indexCount": 8832,
+      "triangleCount": 2944,
+      "bounds": {
+        "min": [
+          0.360021710395813,
+          0.027599304914474487,
+          -0.10000000149011612
+        ],
+        "max": [
+          0.617703378200531,
+          0.2852821946144104,
+          0.10000000149011612
+        ],
+        "size": [
+          0.257681667804718,
+          0.2576828896999359,
+          0.20000000298023224
+        ],
+        "center": [
+          0.488862544298172,
+          0.15644074976444244,
+          0
+        ]
+      },
+      "surfaceArea": 0.2637422329900813,
+      "signedVolume": 0.010337149714808645,
+      "minimumNormalLength": 0.9999999437015876,
+      "maximumNormalLength": 1.0000001045717664,
+      "sourceSha256": "e4dfb50487cd503a669c1203b27a2d00f3f53e842360feaedf31b71e58874523",
+      "decodedSha256": "d052e82bfa1888aa4958b65a74b52af18c9b7dabb83840409235c150863ea1f4"
+    },
+    "eyes-highlight_capsules-0-0": {
+      "id": "eyes-highlight_capsules-0-0",
+      "title": "eyes-highlight_capsules-0-0",
+      "file": "eyes-highlight_capsules-0-0.bin",
+      "vertexCount": 1750,
+      "indexCount": 10488,
+      "triangleCount": 3496,
+      "bounds": {
+        "min": [
+          -1,
+          -0.6111099123954773,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.2467537820339203,
+          0.6111099123954773,
+          0.10000000149011612
+        ],
+        "size": [
+          0.7532462179660797,
+          1.2222198247909546,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.6233768910169601,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 2.2472344849751664,
+      "signedVolume": 0.1563023082830305,
+      "minimumNormalLength": 0.9999999794253283,
+      "maximumNormalLength": 1.0000001219569028,
+      "sourceSha256": "49a758441719c793c77dfdf5305b346ad0f43864370cfb190c49b5df9d89abc5",
+      "decodedSha256": "f1a9594db298651c9d35e5b8b91639c5415bc3ffda5fbf19789b1f3bbcc1a2eb"
+    },
+    "eyes-highlight_capsules-0-1": {
+      "id": "eyes-highlight_capsules-0-1",
+      "title": "eyes-highlight_capsules-0-1",
+      "file": "eyes-highlight_capsules-0-1.bin",
+      "vertexCount": 1750,
+      "indexCount": 10488,
+      "triangleCount": 3496,
+      "bounds": {
+        "min": [
+          0.2467537820339203,
+          -0.6111099123954773,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.6111099123954773,
+          0.10000000149011612
+        ],
+        "size": [
+          0.7532462179660797,
+          1.2222198247909546,
+          0.20000000298023224
+        ],
+        "center": [
+          0.6233768910169601,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 2.2472367859254296,
+      "signedVolume": 0.15630249216090059,
+      "minimumNormalLength": 0.999999969095398,
+      "maximumNormalLength": 1.0000001091578785,
+      "sourceSha256": "7e04c2c51890892e87d10ca0eae86af52b918d9287661411d62dd390b2e4ebc8",
+      "decodedSha256": "bbec22af2b222b12119228916c0ac795619cb79f3ee5c356551bd2726bb1abc1"
+    },
+    "eyes-highlight_capsules-1-0": {
+      "id": "eyes-highlight_capsules-1-0",
+      "title": "eyes-highlight_capsules-1-0",
+      "file": "eyes-highlight_capsules-1-0.bin",
+      "vertexCount": 899,
+      "indexCount": 5382,
+      "triangleCount": 1794,
+      "bounds": {
+        "min": [
+          -0.7919154763221741,
+          0.0625493973493576,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.4543125033378601,
+          0.40193670988082886,
+          0.10000000149011612
+        ],
+        "size": [
+          0.33760297298431396,
+          0.33938731253147125,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.6231139898300171,
+          0.23224305361509323,
+          0
+        ]
+      },
+      "surfaceArea": 0.3884013360105489,
+      "signedVolume": 0.017810560350170337,
+      "minimumNormalLength": 0.9999999683668785,
+      "maximumNormalLength": 1.0000001061367898,
+      "sourceSha256": "f2e3107bc03ac490090a8276611d8ed53723a7be74b9fa6fb1d4b7bd1e54ec05",
+      "decodedSha256": "b6eea06541eb9e49cb4db5a5b90a53554bd318c168bb3550d4d070d5aa713a39"
+    },
+    "eyes-highlight_capsules-1-1": {
+      "id": "eyes-highlight_capsules-1-1",
+      "title": "eyes-highlight_capsules-1-1",
+      "file": "eyes-highlight_capsules-1-1.bin",
+      "vertexCount": 899,
+      "indexCount": 5382,
+      "triangleCount": 1794,
+      "bounds": {
+        "min": [
+          0.4519118070602417,
+          0.0625493973493576,
+          -0.10000000149011612
+        ],
+        "max": [
+          0.7895147204399109,
+          0.40193670988082886,
+          0.10000000149011612
+        ],
+        "size": [
+          0.3376029133796692,
+          0.33938731253147125,
+          0.20000000298023224
+        ],
+        "center": [
+          0.6207132637500763,
+          0.23224305361509323,
+          0
+        ]
+      },
+      "surfaceArea": 0.3884013571902414,
+      "signedVolume": 0.017810561502434527,
+      "minimumNormalLength": 0.9999999826829524,
+      "maximumNormalLength": 1.0000001118090411,
+      "sourceSha256": "3a4fefb6daf28887b29108b32f2be03e1d84e1b7eb5cd78ddf481f1f5fea8324",
+      "decodedSha256": "9991e77731c8b922e501341ab3bf41826036ff5ed84b599db41acea877854d35"
+    },
+    "eyes-oval-0-0": {
+      "id": "eyes-oval-0-0",
+      "title": "eyes-oval-0-0",
+      "file": "eyes-oval-0-0.bin",
+      "vertexCount": 1474,
+      "indexCount": 8832,
+      "triangleCount": 2944,
+      "bounds": {
+        "min": [
+          -1,
+          -0.40051960945129395,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.46597209572792053,
+          0.40052080154418945,
+          0.10000000149011612
+        ],
+        "size": [
+          0.5340279042720795,
+          0.8010404109954834,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.7329860478639603,
+          5.960464477539062e-7,
+          0
+        ]
+      },
+      "surfaceArea": 1.0814908806368704,
+      "signedVolume": 0.06653347152776284,
+      "minimumNormalLength": 0.9999999748160653,
+      "maximumNormalLength": 1.000000107099284,
+      "sourceSha256": "a91d4bd82f91e1466c72f4b14e75d19ccdc794bce3d0c53154187798ef65af02",
+      "decodedSha256": "3102b63e1efe5882a944163aecb8c7cc89907723c1ad044493eece9490ae4e36"
+    },
+    "eyes-oval-0-1": {
+      "id": "eyes-oval-0-1",
+      "title": "eyes-oval-0-1",
+      "file": "eyes-oval-0-1.bin",
+      "vertexCount": 1474,
+      "indexCount": 8832,
+      "triangleCount": 2944,
+      "bounds": {
+        "min": [
+          0.4659661054611206,
+          -0.40052080154418945,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.40051859617233276,
+          0.10000000149011612
+        ],
+        "size": [
+          0.5340338945388794,
+          0.8010393977165222,
+          0.20000000298023224
+        ],
+        "center": [
+          0.7329830527305603,
+          -0.0000011026859283447266,
+          0
+        ]
+      },
+      "surfaceArea": 1.0814988524004732,
+      "signedVolume": 0.06653413966243864,
+      "minimumNormalLength": 0.9999999738122259,
+      "maximumNormalLength": 1.0000001025762577,
+      "sourceSha256": "41d8ba5ac06a0ba50e8809276f38517721b371f1c4144c4d3212fed5be1263e7",
+      "decodedSha256": "14ea04d2c4d71b3223663dfbd1996aeceb3b554d11a4ba3355bf89bc6885f9d3"
+    },
+    "eyes-round_inset-0-0": {
+      "id": "eyes-round_inset-0-0",
+      "title": "eyes-round_inset-0-0",
+      "file": "eyes-round_inset-0-0.bin",
+      "vertexCount": 6,
+      "indexCount": 24,
+      "triangleCount": 8,
+      "bounds": {
+        "min": [
+          -1,
+          -0.41617271304130554,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.16765239834785461,
+          0.41617271304130554,
+          0.10000000149011612
+        ],
+        "size": [
+          0.8323476016521454,
+          0.8323454260826111,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.5838261991739273,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 0.7317082038851563,
+      "signedVolume": 0.02309335764898432,
+      "minimumNormalLength": 1,
+      "maximumNormalLength": 1,
+      "sourceSha256": "10e3ddd4e1b1299cd5062c49714849db7b585229b08ac49756b80693067042ea",
+      "decodedSha256": "e71bdfb3d7b71f729a0d97948d0d8fa616a9f0674349d50b6f29070eec48f7e1"
+    },
+    "eyes-round_inset-2-0": {
+      "id": "eyes-round_inset-2-0",
+      "title": "eyes-round_inset-2-0",
+      "file": "eyes-round_inset-2-0.bin",
+      "vertexCount": 1428,
+      "indexCount": 8556,
+      "triangleCount": 2852,
+      "bounds": {
+        "min": [
+          -0.8466575741767883,
+          -0.3504577875137329,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.16765239834785461,
+          0.35046470165252686,
+          0.10000000149011612
+        ],
+        "size": [
+          0.6790051758289337,
+          0.7009224891662598,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.5071549862623215,
+          0.0000034570693969726562,
+          0
+        ]
+      },
+      "surfaceArea": 1.176476006275934,
+      "signedVolume": 0.07484556514044853,
+      "minimumNormalLength": 0.9999999750641442,
+      "maximumNormalLength": 1.0000001189501615,
+      "sourceSha256": "378dddab31eba2b4518b8c1de53a3c0132b8cc18144374ef13647cd2c5e5767e",
+      "decodedSha256": "5f2d662fd076609c37e054bbf63d599d033512dd59a1ccd03db25b0235cf6e4c"
+    },
+    "eyes-round_inset-3-0": {
+      "id": "eyes-round_inset-3-0",
+      "title": "eyes-round_inset-3-0",
+      "file": "eyes-round_inset-3-0.bin",
+      "vertexCount": 6,
+      "indexCount": 24,
+      "triangleCount": 8,
+      "bounds": {
+        "min": [
+          0.16765189170837402,
+          -0.41617271304130554,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.41617271304130554,
+          0.10000000149011612
+        ],
+        "size": [
+          0.832348108291626,
+          0.8323454260826111,
+          0.20000000298023224
+        ],
+        "center": [
+          0.583825945854187,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 0.7317086262139182,
+      "signedVolume": 0.023093371705619675,
+      "minimumNormalLength": 1,
+      "maximumNormalLength": 1,
+      "sourceSha256": "5d5727d801e705368bd409edce219d1c4105a7a11b6812f626f0742901500900",
+      "decodedSha256": "0692c70b59d26e44b52c8cb30a7d3610ef98b09528dbafe09fdd1cbb75a1c35f"
+    },
+    "eyes-round_inset-5-0": {
+      "id": "eyes-round_inset-5-0",
+      "title": "eyes-round_inset-5-0",
+      "file": "eyes-round_inset-5-0.bin",
+      "vertexCount": 1428,
+      "indexCount": 8556,
+      "triangleCount": 2852,
+      "bounds": {
+        "min": [
+          0.16765189170837402,
+          -0.3504577875137329,
+          -0.10000000149011612
+        ],
+        "max": [
+          0.8466597199440002,
+          0.35046470165252686,
+          0.10000000149011612
+        ],
+        "size": [
+          0.6790078282356262,
+          0.7009224891662598,
+          0.20000000298023224
+        ],
+        "center": [
+          0.5071558058261871,
+          0.0000034570693969726562,
+          0
+        ]
+      },
+      "surfaceArea": 1.176480917545208,
+      "signedVolume": 0.07484595717256648,
+      "minimumNormalLength": 0.9999999694566893,
+      "maximumNormalLength": 1.0000001154125067,
+      "sourceSha256": "479eac4b7df3011fb8f1490a391e84b2eac1018bc6a64ec89eba46a9eb962403",
+      "decodedSha256": "e56d02eda5284e14ac0e8881e419c7734256d875eba0b019a2c44b3132e4c68b"
+    },
+    "eyes-sleepy_lids-0-0": {
+      "id": "eyes-sleepy_lids-0-0",
+      "title": "eyes-sleepy_lids-0-0",
+      "file": "eyes-sleepy_lids-0-0.bin",
+      "vertexCount": 1474,
+      "indexCount": 8832,
+      "triangleCount": 2944,
+      "bounds": {
+        "min": [
+          -0.6857143044471741,
+          -0.2595238983631134,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.4000000059604645,
+          0.16904768347740173,
+          0.10000000149011612
+        ],
+        "size": [
+          0.2857142984867096,
+          0.42857158184051514,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.5428571552038193,
+          -0.045238107442855835,
+          0
+        ]
+      },
+      "surfaceArea": 0.41445932754740705,
+      "signedVolume": 0.01904484188415199,
+      "minimumNormalLength": 0.9999999862030542,
+      "maximumNormalLength": 1.0000001166733343,
+      "sourceSha256": "0e6d8b6f0c696dff69dd65d82f41399e860da76948aa862786f7e1da3700251f",
+      "decodedSha256": "3a4621c2e1afa4f7c898f1bcc9fc7b91f62accf4629037536702fd1f89788a32"
+    },
+    "eyes-sleepy_lids-1-0": {
+      "id": "eyes-sleepy_lids-1-0",
+      "title": "eyes-sleepy_lids-1-0",
+      "file": "eyes-sleepy_lids-1-0.bin",
+      "vertexCount": 1773,
+      "indexCount": 10626,
+      "triangleCount": 3542,
+      "bounds": {
+        "min": [
+          -1,
+          0.02142849564552307,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.08571431040763855,
+          0.2595238983631134,
+          0.10000000149011612
+        ],
+        "size": [
+          0.9142856895923615,
+          0.23809540271759033,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.5428571552038193,
+          0.14047619700431824,
+          0
+        ]
+      },
+      "surfaceArea": 0.8258950468470675,
+      "signedVolume": 0.03793111956558034,
+      "minimumNormalLength": 0.9999999484049842,
+      "maximumNormalLength": 1.0000001074059415,
+      "sourceSha256": "2b9cbe07b74c88d5e048959104e38f86f3790d671f566df27f8659ffd920a13d",
+      "decodedSha256": "3141f61bfb61a2c0546103f89f96a5f0b74f6c9620665f3e0c61fb3003866947"
+    },
+    "eyes-sleepy_lids-2-0": {
+      "id": "eyes-sleepy_lids-2-0",
+      "title": "eyes-sleepy_lids-2-0",
+      "file": "eyes-sleepy_lids-2-0.bin",
+      "vertexCount": 1474,
+      "indexCount": 8832,
+      "triangleCount": 2944,
+      "bounds": {
+        "min": [
+          0.4000000059604645,
+          -0.2595238983631134,
+          -0.10000000149011612
+        ],
+        "max": [
+          0.6857143044471741,
+          0.16904768347740173,
+          0.10000000149011612
+        ],
+        "size": [
+          0.2857142984867096,
+          0.42857158184051514,
+          0.20000000298023224
+        ],
+        "center": [
+          0.5428571552038193,
+          -0.045238107442855835,
+          0
+        ]
+      },
+      "surfaceArea": 0.4144593275474067,
+      "signedVolume": 0.019044841884151963,
+      "minimumNormalLength": 0.9999999862030542,
+      "maximumNormalLength": 1.0000001166733343,
+      "sourceSha256": "6114f069375f4dede59147671334028e08ca264fc76d8f593a82581fa75eb724",
+      "decodedSha256": "b4ad81e28cdf30c0b1c6db8463bf4d446d4392ca190bec5b6d2708cb52fab514"
+    },
+    "eyes-sleepy_lids-3-0": {
+      "id": "eyes-sleepy_lids-3-0",
+      "title": "eyes-sleepy_lids-3-0",
+      "file": "eyes-sleepy_lids-3-0.bin",
+      "vertexCount": 1773,
+      "indexCount": 10626,
+      "triangleCount": 3542,
+      "bounds": {
+        "min": [
+          0.08571431040763855,
+          0.02142849564552307,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.2595238983631134,
+          0.10000000149011612
+        ],
+        "size": [
+          0.9142856895923615,
+          0.23809540271759033,
+          0.20000000298023224
+        ],
+        "center": [
+          0.5428571552038193,
+          0.14047619700431824,
+          0
+        ]
+      },
+      "surfaceArea": 0.8258950179939917,
+      "signedVolume": 0.037931119385862945,
+      "minimumNormalLength": 0.999999974526675,
+      "maximumNormalLength": 1.0000001179583669,
+      "sourceSha256": "73b3fc50c4b7d095473c273d24b0b27d2c5eb0b988062e8e1aad07f185c5ff79",
+      "decodedSha256": "3abd76dc1c113240cacf30555d0087666edc39973731ef9e94616d3462ed3aab"
+    },
+    "eyes-sparkle_capsules-0-0": {
+      "id": "eyes-sparkle_capsules-0-0",
+      "title": "eyes-sparkle_capsules-0-0",
+      "file": "eyes-sparkle_capsules-0-0.bin",
+      "vertexCount": 1750,
+      "indexCount": 10488,
+      "triangleCount": 3496,
+      "bounds": {
+        "min": [
+          -1,
+          -0.6097152233123779,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.2484728991985321,
+          0.6097152233123779,
+          0.10000000149011612
+        ],
+        "size": [
+          0.7515271008014679,
+          1.2194304466247559,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.624236449599266,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 2.2385912927818596,
+      "signedVolume": 0.15558968383301933,
+      "minimumNormalLength": 0.9999999795210075,
+      "maximumNormalLength": 1.0000001013991133,
+      "sourceSha256": "8d0075dc9ee1bf7e7d742ef05607750dffd6009c9d8c1645d8d44262864d1e67",
+      "decodedSha256": "375af947528b228eac3d4ade8498e847c0ab4eda5a28759cec3ead0e1d92f1b5"
+    },
+    "eyes-sparkle_capsules-1-0": {
+      "id": "eyes-sparkle_capsules-1-0",
+      "title": "eyes-sparkle_capsules-1-0",
+      "file": "eyes-sparkle_capsules-1-0.bin",
+      "vertexCount": 1842,
+      "indexCount": 11040,
+      "triangleCount": 3680,
+      "bounds": {
+        "min": [
+          -0.8983439207077026,
+          -0.06873700022697449,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.37469708919525146,
+          0.4549092948436737,
+          0.10000000149011612
+        ],
+        "size": [
+          0.5236468315124512,
+          0.5236462950706482,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.636520504951477,
+          0.1930861473083496,
+          0
+        ]
+      },
+      "surfaceArea": 0.5856724184979203,
+      "signedVolume": 0.024745860854005076,
+      "minimumNormalLength": 0.9999999695310974,
+      "maximumNormalLength": 1.0000001142726347,
+      "sourceSha256": "22d16733f5ad42cffd03cadc5b52b1f1de33dd975a7bd3eb3d9e2a63b20ddb12",
+      "decodedSha256": "d05c84a596be45bcbe627ee81d18bd59549170c65958f6e91d1ef02104eb087c"
+    },
+    "eyes-sparkle_capsules-1-1": {
+      "id": "eyes-sparkle_capsules-1-1",
+      "title": "eyes-sparkle_capsules-1-1",
+      "file": "eyes-sparkle_capsules-1-1.bin",
+      "vertexCount": 1014,
+      "indexCount": 6072,
+      "triangleCount": 2024,
+      "bounds": {
+        "min": [
+          -0.5349007844924927,
+          -0.19887499511241913,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.36069589853286743,
+          -0.024670101702213287,
+          0.10000000149011612
+        ],
+        "size": [
+          0.17420488595962524,
+          0.17420489341020584,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.44779834151268005,
+          -0.11177254840731621,
+          0
+        ]
+      },
+      "surfaceArea": 0.15537280697679484,
+      "signedVolume": 0.004695974042417661,
+      "minimumNormalLength": 0.9999999771914784,
+      "maximumNormalLength": 1.0000001190585124,
+      "sourceSha256": "a84f04ad3c49980002a5dcd6bb55e87912b4008b70e4f4edff77e23c4baefb5b",
+      "decodedSha256": "9a103870b607f28a28f761d66235b14d95a831083951b5071d288309e0cea4e3"
+    },
+    "eyes-sparkle_capsules-2-0": {
+      "id": "eyes-sparkle_capsules-2-0",
+      "title": "eyes-sparkle_capsules-2-0",
+      "file": "eyes-sparkle_capsules-2-0.bin",
+      "vertexCount": 1750,
+      "indexCount": 10488,
+      "triangleCount": 3496,
+      "bounds": {
+        "min": [
+          0.2484728991985321,
+          -0.6097152233123779,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.6097152233123779,
+          0.10000000149011612
+        ],
+        "size": [
+          0.7515271008014679,
+          1.2194304466247559,
+          0.20000000298023224
+        ],
+        "center": [
+          0.624236449599266,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 2.2385935419923273,
+      "signedVolume": 0.15558987222818182,
+      "minimumNormalLength": 0.9999999781412051,
+      "maximumNormalLength": 1.0000001046342228,
+      "sourceSha256": "5e0b20bf07679dd83a90acb6b4c288007a32e728253a44bb678fe23d2815a594",
+      "decodedSha256": "3f7e98816145a3a0ebce199ade2e886972e5162fa27be9d6c35e786fffa15052"
+    },
+    "eyes-sparkle_capsules-3-0": {
+      "id": "eyes-sparkle_capsules-3-0",
+      "title": "eyes-sparkle_capsules-3-0",
+      "file": "eyes-sparkle_capsules-3-0.bin",
+      "vertexCount": 1842,
+      "indexCount": 11040,
+      "triangleCount": 3680,
+      "bounds": {
+        "min": [
+          0.3501274883747101,
+          -0.06873700022697449,
+          -0.10000000149011612
+        ],
+        "max": [
+          0.8737750053405762,
+          0.4549092948436737,
+          0.10000000149011612
+        ],
+        "size": [
+          0.5236475169658661,
+          0.5236462950706482,
+          0.20000000298023224
+        ],
+        "center": [
+          0.6119512468576431,
+          0.1930861473083496,
+          0
+        ]
+      },
+      "surfaceArea": 0.5856723801990574,
+      "signedVolume": 0.02474583968323117,
+      "minimumNormalLength": 0.999999938534275,
+      "maximumNormalLength": 1.0000001202071491,
+      "sourceSha256": "bb674a5b657e56daa034773b952279bfca35d2f9f82ba98dc2284306502bbdf1",
+      "decodedSha256": "bec782e06850a29754baf9b82e26c162b689056e6bf4cfbc9fa6ff7cec138bae"
+    },
+    "eyes-sparkle_capsules-3-1": {
+      "id": "eyes-sparkle_capsules-3-1",
+      "title": "eyes-sparkle_capsules-3-1",
+      "file": "eyes-sparkle_capsules-3-1.bin",
+      "vertexCount": 1037,
+      "indexCount": 6210,
+      "triangleCount": 2070,
+      "bounds": {
+        "min": [
+          0.7135710120201111,
+          -0.19887499511241913,
+          -0.10000000149011612
+        ],
+        "max": [
+          0.8877758979797363,
+          -0.024670101702213287,
+          0.10000000149011612
+        ],
+        "size": [
+          0.17420488595962524,
+          0.17420489341020584,
+          0.20000000298023224
+        ],
+        "center": [
+          0.8006734549999237,
+          -0.11177254840731621,
+          0
+        ]
+      },
+      "surfaceArea": 0.1553728217616941,
+      "signedVolume": 0.004695974675496004,
+      "minimumNormalLength": 0.9999999682087152,
+      "maximumNormalLength": 1.0000001165117445,
+      "sourceSha256": "082124354fcad2716c8d5c70720e836f2e30fd3f4348496ce217f1c3e86a87c2",
+      "decodedSha256": "4fb3e94fbe5980fc4672f9b77a5f43652f754ddc2d0cb7b61a1a3d23b10cfdda"
+    },
+    "eyes-swept_lids-0-0": {
+      "id": "eyes-swept_lids-0-0",
+      "title": "eyes-swept_lids-0-0",
+      "file": "eyes-swept_lids-0-0.bin",
+      "vertexCount": 1888,
+      "indexCount": 11316,
+      "triangleCount": 3772,
+      "bounds": {
+        "min": [
+          -1,
+          -0.31219691038131714,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.30218440294265747,
+          0.3121958374977112,
+          0.10000000149011612
+        ],
+        "size": [
+          0.6978155970573425,
+          0.6243927478790283,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.6510922014713287,
+          -5.364418029785156e-7,
+          0
+        ]
+      },
+      "surfaceArea": 0.8950958775762801,
+      "signedVolume": 0.04522440813970581,
+      "minimumNormalLength": 0.9999999690004072,
+      "maximumNormalLength": 1.0000001166758585,
+      "sourceSha256": "fa3dac1f09cc14e04ea19802f9eda6a981b1f8e6cf3a5bb381bf9c0764a83d6c",
+      "decodedSha256": "fdc9858c5a64e861069367265c3f4e9204c8a3a0e657a1d4d4447b21d8b581b5"
+    },
+    "eyes-swept_lids-0-1": {
+      "id": "eyes-swept_lids-0-1",
+      "title": "eyes-swept_lids-0-1",
+      "file": "eyes-swept_lids-0-1.bin",
+      "vertexCount": 1888,
+      "indexCount": 11316,
+      "triangleCount": 3772,
+      "bounds": {
+        "min": [
+          0.3047181963920593,
+          -0.31219691038131714,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.31219691038131714,
+          0.10000000149011612
+        ],
+        "size": [
+          0.6952818036079407,
+          0.6243938207626343,
+          0.20000000298023224
+        ],
+        "center": [
+          0.6523590981960297,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 0.8926693615894543,
+      "signedVolume": 0.04506038405505124,
+      "minimumNormalLength": 0.9999999657649739,
+      "maximumNormalLength": 1.0000001130894958,
+      "sourceSha256": "36be8d538ac2d5d317233a495b237ceec25828cf7a766e7e54e7b97739404d85",
+      "decodedSha256": "334c72aa544153d18a6afc9508b0d2b2cf32238eb7961983763b93397e1a42b2"
+    },
+    "eyewear-classic_sunglasses-0-0": {
+      "id": "eyewear-classic_sunglasses-0-0",
+      "title": "eyewear-classic_sunglasses-0-0",
+      "file": "eyewear-classic_sunglasses-0-0.bin",
+      "vertexCount": 6526,
+      "indexCount": 39144,
+      "triangleCount": 13048,
+      "bounds": {
+        "min": [
+          -1,
+          -0.33108359575271606,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.33108359575271606,
+          0.10000000149011612
+        ],
+        "size": [
+          2,
+          0.6621671915054321,
+          0.20000000298023224
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 2.835235603853116,
+      "signedVolume": 0.18244862471075535,
+      "minimumNormalLength": 0.9999999618854428,
+      "maximumNormalLength": 1.0000001241598053,
+      "sourceSha256": "6430984374dbe5347bd95d0b23bdc106484d33a18622bfe175d841309814e63c",
+      "decodedSha256": "2e3911f17ccc02ce18145f72dc5eb9917cb0bb7dc1b5d02ede2730ca4ed2f8df"
+    },
+    "eyewear-monocle-0-0": {
+      "id": "eyewear-monocle-0-0",
+      "title": "eyewear-monocle-0-0",
+      "file": "eyewear-monocle-0-0.bin",
+      "vertexCount": 6007,
+      "indexCount": 36042,
+      "triangleCount": 12014,
+      "bounds": {
+        "min": [
+          -1,
+          -0.90224289894104,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.90224289894104,
+          0.10000000149011612
+        ],
+        "size": [
+          2,
+          1.80448579788208,
+          0.20000000298023224
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 3.1326285176465607,
+      "signedVolume": 0.1272383184012082,
+      "minimumNormalLength": 0.9999999503159089,
+      "maximumNormalLength": 1.0000001215783028,
+      "sourceSha256": "35d9b76b7f63242f00a197028ddfbaae65eedea5fabb2b76d7258ee82d1c7218",
+      "decodedSha256": "ac0cc5dc8075c6385d3aa711388fb9d2cb4bddb239d26a9287f5c54526b86b13"
+    },
+    "eyewear-round_sunglasses-0-0": {
+      "id": "eyewear-round_sunglasses-0-0",
+      "title": "eyewear-round_sunglasses-0-0",
+      "file": "eyewear-round_sunglasses-0-0.bin",
+      "vertexCount": 7490,
+      "indexCount": 44928,
+      "triangleCount": 14976,
+      "bounds": {
+        "min": [
+          -1,
+          -0.38037940859794617,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.38037940859794617,
+          0.10000000149011612
+        ],
+        "size": [
+          2,
+          0.7607588171958923,
+          0.20000000298023224
+        ],
+        "center": [
+          0,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 3.009935685567241,
+      "signedVolume": 0.18463305145857545,
+      "minimumNormalLength": 0.9999999610629127,
+      "maximumNormalLength": 1.0000001225551056,
+      "sourceSha256": "df539ad3ab7d81d2e7a72f4041d258d2880ddd2b7408070004007e4f0d3a31ea",
+      "decodedSha256": "2222f159aadd7d12de01b87569c8169f47838814ea50c7b6570f7427ac06731f"
+    },
+    "eyewear-separate_trapezoid_lenses-0-0": {
+      "id": "eyewear-separate_trapezoid_lenses-0-0",
+      "title": "eyewear-separate_trapezoid_lenses-0-0",
+      "file": "eyewear-separate_trapezoid_lenses-0-0.bin",
+      "vertexCount": 2049,
+      "indexCount": 12282,
+      "triangleCount": 4094,
+      "bounds": {
+        "min": [
+          -1,
+          -0.34860968589782715,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.03379139304161072,
+          0.34860968589782715,
+          0.10000000149011612
+        ],
+        "size": [
+          0.9662086069583893,
+          0.6972193717956543,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.5168956965208054,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 1.7415639830286689,
+      "signedVolume": 0.11453301648489159,
+      "minimumNormalLength": 0.9999999719582476,
+      "maximumNormalLength": 1.0000001148015096,
+      "sourceSha256": "3f6c76f84d8e5abe53d03d09e928088887fa9018d04effd582d27fdffa0f9ae1",
+      "decodedSha256": "cbd137e82ccbe6b21ce1c9fe5d1235486a6cbea262640944a92be5f2bed1e65b"
+    },
+    "eyewear-separate_trapezoid_lenses-0-1": {
+      "id": "eyewear-separate_trapezoid_lenses-0-1",
+      "title": "eyewear-separate_trapezoid_lenses-0-1",
+      "file": "eyewear-separate_trapezoid_lenses-0-1.bin",
+      "vertexCount": 2049,
+      "indexCount": 12282,
+      "triangleCount": 4094,
+      "bounds": {
+        "min": [
+          0.033789992332458496,
+          -0.34860968589782715,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.34860968589782715,
+          0.10000000149011612
+        ],
+        "size": [
+          0.9662100076675415,
+          0.6972193717956543,
+          0.20000000298023224
+        ],
+        "center": [
+          0.5168949961662292,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 1.7415647902947198,
+      "signedVolume": 0.11453308513078042,
+      "minimumNormalLength": 0.9999999611382112,
+      "maximumNormalLength": 1.0000001192014523,
+      "sourceSha256": "3b4fd0d8e474feb4ae3766ffc50caa73ff2c448491f925712ab7654d58584aaa",
+      "decodedSha256": "865b97d7e0aa738200a14a650c572f0d43b396ad37033d472f9e99b1ea34f27c"
+    },
+    "eyewear-tall_oval_frames-0-0": {
+      "id": "eyewear-tall_oval_frames-0-0",
+      "title": "eyewear-tall_oval_frames-0-0",
+      "file": "eyewear-tall_oval_frames-0-0.bin",
+      "vertexCount": 3168,
+      "indexCount": 19008,
+      "triangleCount": 6336,
+      "bounds": {
+        "min": [
+          -1,
+          -0.5609962940216064,
+          -0.10000000149011612
+        ],
+        "max": [
+          -0.07139260321855545,
+          0.5609962940216064,
+          0.10000000149011612
+        ],
+        "size": [
+          0.9286073967814445,
+          1.121992588043213,
+          0.20000000298023224
+        ],
+        "center": [
+          -0.5356963016092777,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 1.616128086538097,
+      "signedVolume": 0.04718428760555177,
+      "minimumNormalLength": 0.9999999374091696,
+      "maximumNormalLength": 1.000000122087734,
+      "sourceSha256": "b0d7eefb6fbaae387ae6f894b182e0344ec07ede2f00a9f26a40042f12b12ade",
+      "decodedSha256": "63a74f67ed7bedffc9f1ff935b4664c8f04d17aa98c358407680edbab466f141"
+    },
+    "eyewear-tall_oval_frames-0-1": {
+      "id": "eyewear-tall_oval_frames-0-1",
+      "title": "eyewear-tall_oval_frames-0-1",
+      "file": "eyewear-tall_oval_frames-0-1.bin",
+      "vertexCount": 3132,
+      "indexCount": 18792,
+      "triangleCount": 6264,
+      "bounds": {
+        "min": [
+          0.08595459908246994,
+          -0.5609962940216064,
+          -0.10000000149011612
+        ],
+        "max": [
+          1,
+          0.5609962940216064,
+          0.10000000149011612
+        ],
+        "size": [
+          0.9140454009175301,
+          1.121992588043213,
+          0.20000000298023224
+        ],
+        "center": [
+          0.542977299541235,
+          0,
+          0
+        ]
+      },
+      "surfaceArea": 1.6042208985242303,
+      "signedVolume": 0.046805295639606406,
+      "minimumNormalLength": 0.9999999508905907,
+      "maximumNormalLength": 1.0000001191243837,
+      "sourceSha256": "2ce34e941a488018ebd1e9c6a5117ee9fdc58cfb5de76f72f1e125b7ad5f9d03",
+      "decodedSha256": "75eff2993034246ac7b2c489b67c19dc72eb3da33a0e6f551b436f95c59db996"
+    },
+    "four_lobed_butterfly": {
+      "id": "four_lobed_butterfly",
+      "title": "Four lobed butterfly",
+      "file": "four_lobed_butterfly.bin",
+      "vertexCount": 2624,
+      "indexCount": 15732,
+      "triangleCount": 5244,
+      "bounds": {
+        "min": [
+          -0.9992280602455139,
+          -0.7697998881340027,
+          -0.4000000059604645
+        ],
+        "max": [
+          0.9992278814315796,
+          0.7698869705200195,
+          0.4000000059604645
+        ],
+        "size": [
+          1.9984559416770935,
+          1.5396868586540222,
+          0.800000011920929
+        ],
+        "center": [
+          -8.940696716308594e-8,
+          0.00004354119300842285,
+          0
+        ]
+      },
+      "surfaceArea": 6.586737080598425,
+      "signedVolume": 1.150237007996231,
+      "minimumNormalLength": 0.9999998768420686,
+      "maximumNormalLength": 1.0000001285232594,
+      "sourceSha256": "1b273d8711eef922baf0b7cf2b6b650dd9456460fb72d6f408f586b3ad1a09c3",
+      "decodedSha256": "7d2aea8961bd57195d11fb4f752bac8a3a4359e6629c926c88be94c7e7972190"
+    },
+    "heart": {
+      "id": "heart",
+      "title": "Heart",
+      "file": "heart.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -1.0000026226043701,
+          -0.920613169670105,
+          -0.4000169038772583
+        ],
+        "max": [
+          1.0000017881393433,
+          0.9208775758743286,
+          0.4000311493873596
+        ],
+        "size": [
+          2.0000044107437134,
+          1.8414907455444336,
+          0.8000480532646179
+        ],
+        "center": [
+          -4.172325134277344e-7,
+          0.0001322031021118164,
+          0.00000712275505065918
+        ]
+      },
+      "surfaceArea": 7.063882155647508,
+      "signedVolume": 1.3753677281894812,
+      "minimumNormalLength": 0.9999999609926263,
+      "maximumNormalLength": 1.000000040328554,
+      "sourceSha256": "3224e1ae7b6b8f01deb28fbd3fa785b02f756bba82e9a84220675223fefe1b6d",
+      "decodedSha256": "4c44fe38cc279033fc74d6fd1f6c9847edca734ab6b768d20af0c0130d6ae001"
+    },
+    "rounded_cube": {
+      "id": "rounded_cube",
+      "title": "Hexagon",
+      "file": "rounded_cube.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -0.9521502256393433,
+          -1.0006309747695923,
+          -0.4000259339809418
+        ],
+        "max": [
+          0.9521505832672119,
+          1.0006309747695923,
+          0.40000686049461365
+        ],
+        "size": [
+          1.9043008089065552,
+          2.0012619495391846,
+          0.8000327944755554
+        ],
+        "center": [
+          1.7881393432617188e-7,
+          0,
+          -0.0000095367431640625
+        ]
+      },
+      "surfaceArea": 7.450907990905027,
+      "signedVolume": 1.529080932949644,
+      "minimumNormalLength": 0.9999999536407393,
+      "maximumNormalLength": 1.0000000373574338,
+      "sourceSha256": "b0cfb522160ffd4af97ddfb29ad515f727e7e08a79e2772d9d3e36ee59c24f7e",
+      "decodedSha256": "462ff02366fdbf9babe4ebe11d8a644577bba0b27b76304e4925d947be326044"
+    },
+    "rounded_diamond": {
+      "id": "rounded_diamond",
+      "title": "Rounded diamond",
+      "file": "rounded_diamond.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -0.9999998211860657,
+          -0.9749998450279236,
+          -0.4000000059604645
+        ],
+        "max": [
+          0.9999998211860657,
+          0.9749999046325684,
+          0.40000614523887634
+        ],
+        "size": [
+          1.9999996423721313,
+          1.949999749660492,
+          0.8000061511993408
+        ],
+        "center": [
+          0,
+          2.9802322387695312e-8,
+          0.000003069639205932617
+        ]
+      },
+      "surfaceArea": 6.531541373261002,
+      "signedVolume": 1.2806299701150192,
+      "minimumNormalLength": 0.9999999535335913,
+      "maximumNormalLength": 1.0000000472748958,
+      "sourceSha256": "f019e0e2d9291524902080f7b4a671ffcf96d14d1812a4fa65002949e3f01af3",
+      "decodedSha256": "402a9b73a7ac675ca186b41941be99e9538005c0354aa6ff758cadd951f653b0"
+    },
+    "rounded_head_two_ears": {
+      "id": "rounded_head_two_ears",
+      "title": "Rounded head with two ears",
+      "file": "rounded_head_two_ears.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -0.999669075012207,
+          -0.801568329334259,
+          -0.4002997577190399
+        ],
+        "max": [
+          1.0006413459777832,
+          0.801655650138855,
+          0.40032854676246643
+        ],
+        "size": [
+          2.0003104209899902,
+          1.603223979473114,
+          0.8006283044815063
+        ],
+        "center": [
+          0.00048613548278808594,
+          0.00004366040229797363,
+          0.000014394521713256836
+        ]
+      },
+      "surfaceArea": 6.949356853454284,
+      "signedVolume": 1.3146243949518273,
+      "minimumNormalLength": 0.9999999612095,
+      "maximumNormalLength": 1.0000000406668699,
+      "sourceSha256": "258aed7bff3ce8533985261d5cc28066d115358b061d0e58f4fe516d5c6a325b",
+      "decodedSha256": "53117964df45c7844d0c31954148b38f505cae27f61e450785fa2efbcaa36b2d"
+    },
+    "rounded_triangle": {
+      "id": "rounded_triangle",
+      "title": "Rounded triangle",
+      "file": "rounded_triangle.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -0.9999852180480957,
+          -0.8902588486671448,
+          -0.40004634857177734
+        ],
+        "max": [
+          0.9999850988388062,
+          0.8902626633644104,
+          0.4000302851200104
+        ],
+        "size": [
+          1.9999703168869019,
+          1.7805215120315552,
+          0.8000766336917877
+        ],
+        "center": [
+          -5.960464477539063e-8,
+          0.0000019073486328125,
+          -0.000008031725883483887
+        ]
+      },
+      "surfaceArea": 6.6750434583227625,
+      "signedVolume": 1.289215594765628,
+      "minimumNormalLength": 0.9999999553336821,
+      "maximumNormalLength": 1.0000000393904493,
+      "sourceSha256": "0229b12cd1a2def382e06e4fd4f78bedd2a10e14bd3ee59f42d2a4ce474a5fc2",
+      "decodedSha256": "22f79315fb7191130f483e25de24c941cdbe1619ce46e8e66a0acca23c356805"
+    },
+    "six_lobed_flower": {
+      "id": "six_lobed_flower",
+      "title": "Six lobed flower",
+      "file": "six_lobed_flower.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -0.9999989867210388,
+          -0.9149405360221863,
+          -0.4000031352043152
+        ],
+        "max": [
+          0.999998927116394,
+          0.9149405360221863,
+          0.4000045359134674
+        ],
+        "size": [
+          1.9999979138374329,
+          1.8298810720443726,
+          0.8000076711177826
+        ],
+        "center": [
+          -2.9802322387695312e-8,
+          0,
+          7.003545761108398e-7
+        ]
+      },
+      "surfaceArea": 7.168941407825525,
+      "signedVolume": 1.4690533876829692,
+      "minimumNormalLength": 0.9999999580942457,
+      "maximumNormalLength": 1.0000000396042632,
+      "sourceSha256": "2cd7ce76776ed9524ca351bbd7297311a6fb3394c44b6db060a8bc4de3aff0a1",
+      "decodedSha256": "d591740553e94a4ec501c9bb0d863d8e1f055a673a92e031896b880fe9f02adf"
+    },
+    "twelve_scalloped_rosette": {
+      "id": "twelve_scalloped_rosette",
+      "title": "Twelve scalloped rosette",
+      "file": "twelve_scalloped_rosette.bin",
+      "vertexCount": 2502,
+      "indexCount": 15000,
+      "triangleCount": 5000,
+      "bounds": {
+        "min": [
+          -1.000001072883606,
+          -0.9850010275840759,
+          -0.4000025987625122
+        ],
+        "max": [
+          1.000001072883606,
+          0.9850010275840759,
+          0.4000082015991211
+        ],
+        "size": [
+          2.000002145767212,
+          1.9700020551681519,
+          0.8000108003616333
+        ],
+        "center": [
+          0,
+          0,
+          0.0000028014183044433594
+        ]
+      },
+      "surfaceArea": 7.844621991669783,
+      "signedVolume": 1.6619311636605116,
+      "minimumNormalLength": 0.9999999581244483,
+      "maximumNormalLength": 1.0000000391945925,
+      "sourceSha256": "c41d4c2865d33231709c3ae289027893f370c5b176422dbe3a6fb53136bca64c",
+      "decodedSha256": "c13b8618ea48be0515a32ef03fd197550740dabe1e23ba17ced1b6a8244c0a2f"
+    }
+  }
+}
